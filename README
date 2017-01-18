@@ -1,0 +1,3 @@
+This tool allow you to retrieve CPU temperature on a machine running FreeBSD. Currently temperature
+values are read from dev.cpu.%i.temperature sysctl with get-dev.cpu-temperature function. This
+method works with amdtemp or coretemp kernel modules. The single dependency is CFFI.
